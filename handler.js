@@ -6,3 +6,8 @@ getTriggerConfiguration(() => {
     data: textSelect.value,
   };
 });
+
+if (triggerPresetData) {
+  console.log(triggerPresetData);
+  textSelect.value = triggerPresetData;
+}
